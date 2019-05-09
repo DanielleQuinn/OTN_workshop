@@ -10,8 +10,7 @@ This repository contains the materials used in the 14 May 2019 R Workshop hosted
 
 ### Set Up Instructions  
 
-1. Install R  
-Install R by downloading and running [this .exe file](https://cran.r-project.org/bin/windows/base/release.htm) from [CRAN](https://cran.r-project.org/index.html).  
+1. Install R by downloading and running [this .exe file](https://cran.r-project.org/bin/windows/base/release.htm) from [CRAN](https://cran.r-project.org/index.html).  
 
 2. Install the [RStudio IDE](https://www.rstudio.com/products/rstudio/download/#download).  
 
