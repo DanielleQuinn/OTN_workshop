@@ -60,7 +60,7 @@
 
 # Is each element in myvector greater than 5?
 
-# Is each element in myvector found in a vector containing the values 3, 4, and 5?
+# Is 11 found in this vector?
 
 # Goal: How many elements are in the vector called myvector?
 
