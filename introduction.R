@@ -102,8 +102,8 @@ sqrt(myvector)
 # Is each element in myvector greater than 5?
 myvector > 5
 
-# Is each element in myvector found in a vector containing the values 3, 4, and 5?
-myvector %in% c(3, 4, 5)
+# Is 11 found in this vector?
+11 %in% myvector
 
 # Goal: How many elements are in the vector called myvector?
 length(myvector)
