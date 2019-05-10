@@ -4,6 +4,12 @@
 
 # ---- Explore Data ----
 
+# ---- Factors ----
+
+# Goal: What are the levels of continent?
+
+# Goal: What would this column look like if it was treated as a number?
+
 # ---- Subsetting Data with {dplyr} ----
 # select() : selects columns from a data frame
 
