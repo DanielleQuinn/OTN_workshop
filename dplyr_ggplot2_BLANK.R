@@ -21,6 +21,14 @@
 
 # Goal: Output the rows that correspond to data from Europe and Asia
 
+# ---- Pipes ----
+# Information is put into a pipe. When it "comes out" the other
+# side, a function is applied to it
+
+# Goal: Find the square root of the square root of 81
+
+# Goal: Output the rows that correspond to data from Europe and Asia
+
 # Goal: Ouput the columns called year, country, and pop,
 # but only include the rows corresponding to data collected since 2000
 
