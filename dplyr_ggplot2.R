@@ -39,8 +39,16 @@ filter(gapminder, year == 1997)
 # Goal: Output the rows that correspond to data from Europe and Asia
 filter(gapminder, continent %in% c("Europe", "Asia"))
 
-gapminder %>% filter(continent %in% c("Europe", "Asia"))
+# ---- Pipes ----
+# Information is put into a pipe. When it "comes out" the other
+# side, a function is applied to it
 
+# Goal: Find the square root of the square root of 81
+81 %>%
+  sqrt() %>%
+  sqrt()
+
+# Goal: Output the rows that correspond to data from Europe and Asia
 gapminder %>%
   filter(continent %in% c("Europe", "Asia"))
 
