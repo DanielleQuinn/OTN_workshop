@@ -8,9 +8,18 @@ gapminder <- read.csv("gapminder.csv")
 # ---- Explore Data ----
 head(gapminder)
 summary(gapminder)
-str(gapminder)
 nrow(gapminder)
 names(gapminder)
+str(gapminder)
+
+# ---- Factors ----
+class(gapminder$continent)
+
+# Goal: What are the levels of continent?
+levels(gapminder$continent)
+
+# Goal: What would this column look like if it was treated as a number?
+as.numeric(gapminder$continent) # This doesn't change the object unless you overwrite the existing column
 
 # ---- Subsetting Data with {dplyr} ----
 # select() : selects columns from a data frame
